@@ -14,7 +14,7 @@ public class ArrayExample {
     this.coolWords.add("Andy");
     this.coolWords.add("Django");
     this.coolWords.add("CodeAlong");
-    hello();
+    this.hello();
   }
 
   private void populateArray() {
