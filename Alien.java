@@ -26,6 +26,7 @@ public class Alien {
     this.setXLoc(this.face.getCenterX() - Constants.DISTANCE_X);
   }
 
+
   private void setXLoc(double x) {
     this.face.setCenterX(x);
     this.leftEye.setCenterX(x - Constants.EYE_X_OFFSET);
