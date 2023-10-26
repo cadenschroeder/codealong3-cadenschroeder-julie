@@ -14,12 +14,17 @@ public class ArrayExample {
     this.coolWords.add("Andy");
     this.coolWords.add("Django");
     this.coolWords.add("CodeAlong");
+    this.hello();
   }
 
   private void populateArray() {
     for(int i = 0; i < 10; i++) {
       this.numbers[i] = i;
     }
+  }
+
+  public void hello(){
+    System.out.println("timmy is the best");
   }
 
   public void printArray() {
