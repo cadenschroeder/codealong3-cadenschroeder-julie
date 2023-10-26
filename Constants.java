@@ -1,5 +1,7 @@
 package codeAlong4;
 
+import javafx.scene.paint.Color;
+
 public class Constants {
 
   public static final double EYE_RAD_X = 25;
@@ -10,10 +12,12 @@ public class Constants {
   public static final double APP_HEIGHT = 300;
   public static final double BUTTON_SPACING = 30;
 
-  public static final double EYE_X_OFFSET = 40
+  public static final double EYE_X_OFFSET = 40;
   public static final double DISTANCE_X = -10;
 
   public static final double START_X_OFFSET = APP_WIDTH / 2;
   public static final double EYE_Y = APP_HEIGHT / 2 - 50;
   public static final double FACE_Y = EYE_Y + 30;
+
+  public static final Color ALL_COLORS = Color.CHARTREUSE;
 }
